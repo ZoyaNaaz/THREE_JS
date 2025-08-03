@@ -32,4 +32,4 @@ function animate(){
     renderer.render(scene, camera)
     mesh.rotation.y = clock.getElapsedTime()
 }
-// animate()
+animate()
